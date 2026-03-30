@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+	<!-- ============================================================ -->
+	<!-- KITSUNE KITCHEN — CUSTOM BUFFS                                -->
+	<!-- ============================================================ -->
+
+	<append xpath="/buffs">
+
+		<!-- Herbal Remedy: Nature's antibiotic — cures 15% infection + gentle health regen -->
+		<buff name="buffKKHerbalRemedy" name_key="buffKKHerbalRemedyName" description_key="buffKKHerbalRemedyDesc" icon="ui_game_symbol_medical" icon_color="212,160,23">
+			<stack_type value="replace"/>
+			<duration value="300"/>
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_add" value="0.5"/>
+			</effect_group>
+		</buff>
+
+		<!-- Wired: Iced espresso hit — speed + stamina regen -->
+		<buff name="buffKKWired" name_key="buffKKWiredName" description_key="buffKKWiredDesc" icon="ui_game_symbol_run" icon_color="74,55,40">
+			<stack_type value="replace"/>
+			<duration value="600"/>
+			<effect_group>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="2"/>
+				<passive_effect name="RunSpeed" operation="perc_add" value=".15"/>
+			</effect_group>
+		</buff>
+
+		<!-- Refreshed: Light health regen + stamina over time — the trendy aloe buff -->
+		<buff name="buffKKRefreshed" name_key="buffKKRefreshedName" description_key="buffKKRefreshedDesc" icon="ui_game_symbol_water" icon_color="100,220,180">
+			<stack_type value="replace"/>
+			<duration value="300"/>
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_add" value="0.5"/>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="1"/>
+			</effect_group>
+		</buff>
+
+		<!-- Hearty: Health regen + physical resistance (15 min) -->
+		<buff name="buffKKHearty" name_key="buffKKHeartyName" description_key="buffKKHeartyDesc" icon="ui_game_symbol_medical" icon_color="200,80,80">
+			<stack_type value="replace"/>
+			<duration value="900"/>
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_add" value="1"/>
+				<passive_effect name="PhysicalDamageResist" operation="perc_add" value=".10"/>
+			</effect_group>
+		</buff>
+
+		<!-- Energized: Stamina regen + run speed (15 min) -->
+		<buff name="buffKKEnergized" name_key="buffKKEnergizedName" description_key="buffKKEnergizedDesc" icon="ui_game_symbol_run" icon_color="80,200,80">
+			<stack_type value="replace"/>
+			<duration value="900"/>
+			<effect_group>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="2"/>
+				<passive_effect name="RunSpeed" operation="perc_add" value=".10"/>
+			</effect_group>
+		</buff>
+
+		<!-- Spicy: Stamina regen + strong physical resistance (30 min) -->
+		<buff name="buffKKSpicy" name_key="buffKKSpicyName" description_key="buffKKSpicyDesc" icon="ui_game_symbol_fire" icon_color="255,100,50">
+			<stack_type value="replace"/>
+			<duration value="1800"/>
+			<effect_group>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="2"/>
+				<passive_effect name="PhysicalDamageResist" operation="perc_add" value=".15"/>
+			</effect_group>
+		</buff>
+
+		<!-- Feast: Everything — health, stamina, resistance, block damage (45 min) -->
+		<buff name="buffKKFeast" name_key="buffKKFeastName" description_key="buffKKFeastDesc" icon="ui_game_symbol_star" icon_color="218,165,32">
+			<stack_type value="replace"/>
+			<duration value="2700"/>
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_add" value="1.5"/>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="2"/>
+				<passive_effect name="PhysicalDamageResist" operation="perc_add" value=".15"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value=".10"/>
+			</effect_group>
+		</buff>
+
+	</append>
+
+</configs>

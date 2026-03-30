@@ -1,0 +1,45 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+foodKKFoxHash,items,Food,,,Fox's Hash
+foodKKFoxHashDesc,items,Food,,,"Diced potato and egg fried up quick on the grill. Simple, honest, and hits the spot when you're running on fumes."
+foodKKMushroomOmelette,items,Food,,,Mushroom Omelette
+foodKKMushroomOmeletteDesc,items,Food,,,"A fluffy omelette stuffed with wild mushrooms. Fancy? No. Delicious? Absolutely."
+foodKKHoneyCornCake,items,Food,,,Honey Corn Cake
+foodKKHoneyCornCakeDesc,items,Food,,,"Sweet corn cake drizzled with honey. Tastes like the apocalypse isn't even happening."
+foodKKForagersBroth,items,Food,,,Forager's Broth
+foodKKForagersBrothDesc,items,Food,,,"A humble broth of mushrooms, corn, and boiled water. What the wilderness provides, the fox makes delicious."
+foodKKBurntEnds,items,Food,,,Burnt Ends
+foodKKBurntEndsDesc,items,Food,,,"Charred meat slow-cooked with fresh cuts. One survivor's trash is another survivor's BBQ. Recipe by Maltaine."
+drinkKKBlueberrySmoothie,items,Food,,,Blueberry Smoothie
+drinkKKBlueberrySmoothieDesc,items,Food,,,"Blended blueberries and water. Cold, refreshing, and purple enough to make you feel fancy."
+drinkKKAloeCooler,items,Food,,,Aloe Cooler
+drinkKKAloeCoolerDesc,items,Food,,,"Aloe and blueberry blended smooth. The wellness influencers of the old world would be proud."
+drinkKKHerbalHoneyTea,items,Food,,,Herbal Honey Tea
+drinkKKHerbalHoneyTeaDesc,items,Food,,,"Honey, aloe, and yucca fiber brewed in hot water. Nature's antibiotic. Grandma was right all along."
+drinkKKEspressoSmoothie,items,Food,,,Espresso Smoothie
+drinkKKEspressoSmoothieDesc,items,Food,,,"Hot coffee meets cold snowball. The wasteland's answer to iced espresso. Warning: may cause excessive looting speed."
+foodKKFoxBreakfast,items,Food,,,Fox's Breakfast
+foodKKFoxBreakfastDesc,items,Food,,,"Bacon and eggs paired with fresh corn bread. Start the day right, even if the day includes a blood moon."
+foodKKWastelandChowder,items,Food,,,Wasteland Chowder
+foodKKWastelandChowderDesc,items,Food,,,"Sham chowder elevated with grilled corn. Proof that even Shamway products can be redeemed."
+foodKKHuntersBounty,items,Food,,,Hunter's Bounty
+foodKKHuntersBountyDesc,items,Food,,,"Meat stew, baked potato, and a boiled egg walk into a cooking pot. Nobody leaves hungry."
+foodKKScavengerStirFry,items,Food,,,Scavenger's Stir Fry
+foodKKScavengerStirFryDesc,items,Food,,,"Veggie stew, grilled meat, and corn bread all tossed together. A meal assembled from the spoils of a good day's scavenging."
+foodKKKitsuneGumbo,items,Food,,,Kitsune Gumbo
+foodKKKitsuneGumboDesc,items,Food,,,"The fox's signature dish. Gumbo stew, fish tacos, and grilled corn fused into something legendary. Spicy enough to keep the zombies away."
+foodKKSurvivorsFeast,items,Food,,,Survivor's Feast
+foodKKSurvivorsFeastDesc,items,Food,,,"Steak and potato, spaghetti, AND blueberry pie? This is what peak apocalypse performance looks like. The ultimate reward for mastering the kitchen."
+buffKKHeartyName,items,Food,,,Hearty
+buffKKHeartyDesc,items,Food,,,Health regeneration and physical damage resistance.
+buffKKEnergizedName,items,Food,,,Energized
+buffKKEnergizedDesc,items,Food,,,Stamina regeneration and increased run speed.
+buffKKSpicyName,items,Food,,,Spicy
+buffKKSpicyDesc,items,Food,,,Stamina regeneration and strong physical damage resistance.
+buffKKFeastName,items,Food,,,Well Fed
+buffKKFeastDesc,items,Food,,,"Full health and stamina regeneration, damage resistance, and increased block damage."
+buffKKRefreshedName,items,Food,,,Refreshed
+buffKKRefreshedDesc,items,Food,,,Light health and stamina regeneration.
+buffKKWiredName,items,Food,,,Wired
+buffKKWiredDesc,items,Food,,,Increased stamina regeneration and run speed. Gotta go fast.
+buffKKHerbalRemedyName,items,Food,,,Herbal Remedy
+buffKKHerbalRemedyDesc,items,Food,,,Gentle health regeneration and natural infection treatment.
