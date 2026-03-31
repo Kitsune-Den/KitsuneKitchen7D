@@ -1,6 +1,6 @@
 # Kitsune Kitchen 7D
 
-A fox-crafted cooking expansion for **7 Days to Die**. Adds 15 new food and drink items with custom buffs, a magazine-gated progression system, and a long-overdue Sham Sandwich vendor fix.
+A fox-crafted cooking expansion for **7 Days to Die**. Adds 16 new food and drink items with custom buffs, a magazine-gated progression system, and a long-overdue Sham Sandwich vendor fix.
 
 The philosophy is simple: take what the wasteland already gives you and make something greater from it. Simple dishes from raw ingredients, elevated meals from already-cooked foods, and drinks that'd make a pre-apocalypse barista jealous.
 
@@ -27,7 +27,7 @@ No additional dependencies required. Works alongside other modlets.
 
 | Fix | Details |
 |-----|---------|
-| Sham Sandwich Sellable | Adds `EconomicValue` to Old Sham Sandwich so traders will actually buy them (~2 dukes) |
+| Sham Sandwich Sellable | Flips `SellableToTrader` to true and sets `EconomicValue` so traders will actually buy them (~2.5 dukes each) |
 
 ### Simple Dishes
 
@@ -50,7 +50,7 @@ Smoothies and coolers crafted at the **workbench** (like Yucca Smoothie). Teas a
 | Blueberry Smoothie | 3x Blueberries + Boiled Water | Workbench | 5 | 25 | — |
 | Aloe Cooler | 2x Aloe Leaf + Blueberries + Boiled Water | Workbench | 8 | 30 | Refreshed |
 | Espresso Smoothie | Coffee + Snowball | Workbench | 5 | 20 | Wired |
-| Herbal Honey Tea | Honey + Aloe Leaf + Yucca Fibers + Boiled Water | Pot | 10 | 20 | Herbal Remedy |
+| Herbal Honey Tea | Honey + Aloe Leaf + Yucca Fibers + Boiled Water | Pot | 10 | 20 | Herbal Remedy (15% infection cure) |
 
 ### Completed Works
 
@@ -58,6 +58,7 @@ Elevated meals crafted from **already-cooked dishes**. You're not just cooking �
 
 | Dish | Ingredients | Food | Health | Water | Stamina | Buff |
 |------|------------|------|--------|-------|---------|------|
+| Country Fried Steak | Sham Sandwich + 2x Egg + 2x Grilled Meat | 60 | 22 | 5 | +20 | Hearty |
 | Fox's Breakfast | Bacon & Eggs + Corn Bread | 45 | 15 | 5 | +15 | — |
 | Wasteland Chowder | Sham Chowder + Corn on the Cob | 40 | 10 | 10 | +15 | — |
 | Hunter's Bounty | Meat Stew + Baked Potato + Boiled Egg | 55 | 20 | 5 | +20 | Hearty |
@@ -71,7 +72,7 @@ Elevated meals crafted from **already-cooked dishes**. You're not just cooking �
 |------|----------|---------|
 | Refreshed | 5 min | Light health + stamina regen |
 | Wired | 10 min | +15% run speed, stamina regen |
-| Herbal Remedy | 5 min | Health regen, natural infection treatment |
+| Herbal Remedy | 5 min | Health regen, 15% infection cure |
 | Hearty | 15 min | Health regen, +10% physical damage resistance |
 | Energized | 15 min | Stamina regen, +10% run speed |
 | Spicy | 30 min | Stamina regen, +15% physical damage resistance |
@@ -91,6 +92,7 @@ All recipes unlock through **Home Cooking Weekly** magazines via the `craftingFo
 | 14 | Aloe Cooler, Herbal Honey Tea |
 | 22 | Espresso Smoothie |
 | 27 | Fox's Breakfast, Wasteland Chowder |
+| 35 | Country Fried Steak |
 | 43 | Hunter's Bounty |
 | 51 | Scavenger's Stir Fry |
 | 80 | Kitsune Gumbo |
@@ -102,8 +104,8 @@ All recipes unlock through **Home Cooking Weekly** magazines via the `craftingFo
 KitsuneKitchen7D/
 ├── ModInfo.xml              # Mod metadata
 ├── Config/
-│   ├── items.xml            # 15 new items + Sham Sandwich fix
-│   ├── recipes.xml          # 15 crafting recipes
+│   ├── items.xml            # 16 new items + Sham Sandwich fix
+│   ├── recipes.xml          # 16 crafting recipes
 │   ├── buffs.xml            # 7 custom buffs
 │   ├── progression.xml      # Magazine unlock tiers
 │   └── Localization.txt     # Display names & descriptions
@@ -113,7 +115,7 @@ KitsuneKitchen7D/
 ## Credits
 
 - **AdaInTheLab** — Design, development
-- **Maltaine** — Burnt Ends recipe idea, espresso smoothie QA tester extraordinaire
+- **Maltaine** — Burnt Ends + Country Fried Steak recipe ideas, espresso smoothie QA tester extraordinaire
 - **The Skulk** — KitsuneDen mod family
 
 ## License

@@ -43,6 +43,14 @@
 		</recipe>
 	</append>
 
+	<append xpath="/recipes">
+		<recipe name="foodKKCountryFriedSteak" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodShamSandwich" count="1"/>
+			<ingredient name="foodEgg" count="2"/>
+			<ingredient name="foodGrilledMeat" count="2"/>
+		</recipe>
+	</append>
+
 	<!-- ==================== DRINKS ==================== -->
 
 	<append xpath="/recipes">

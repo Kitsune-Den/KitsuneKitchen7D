@@ -43,6 +43,10 @@
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingFood']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="27,100" value="1" tags="foodKKFoxBreakfast,foodKKWastelandChowder"/>
 	</append>
+	<!-- Level 35: Country Fried Steak (alongside Hobo Stew) -->
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingFood']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="35,100" value="1" tags="foodKKCountryFriedSteak"/>
+	</append>
 	<!-- Level 43: Hunter's Bounty (alongside Fish Tacos) -->
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingFood']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="43,100" value="1" tags="foodKKHuntersBounty"/>

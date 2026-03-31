@@ -9,6 +9,8 @@ foodKKForagersBroth,items,Food,,,Forager's Broth
 foodKKForagersBrothDesc,items,Food,,,"A humble broth of mushrooms, corn, and boiled water. What the wilderness provides, the fox makes delicious."
 foodKKBurntEnds,items,Food,,,Burnt Ends
 foodKKBurntEndsDesc,items,Food,,,"Charred meat slow-cooked with fresh cuts. One survivor's trash is another survivor's BBQ. Recipe by Maltaine."
+foodKKCountryFriedSteak,items,Food,,,Country Fried Steak
+foodKKCountryFriedSteakDesc,items,Food,,,"Sham sandwich breaded with egg and served with grilled meat. Proof that anything can be redeemed with enough hot oil. Recipe by Maltaine."
 drinkKKBlueberrySmoothie,items,Food,,,Blueberry Smoothie
 drinkKKBlueberrySmoothieDesc,items,Food,,,"Blended blueberries and water. Cold, refreshing, and purple enough to make you feel fancy."
 drinkKKAloeCooler,items,Food,,,Aloe Cooler
