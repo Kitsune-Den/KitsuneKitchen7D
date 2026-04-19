@@ -1,4 +1,9 @@
-# Kitsune Kitchen 7D
+# KitsuneKitchen7D
+
+[![Download on Nexus Mods](https://img.shields.io/badge/Download-Nexus_Mods-da8e35?style=flat&logo=nexusmods&logoColor=white)](https://www.nexusmods.com/7daystodie/mods/10022)
+[![7 Days to Die v2.5](https://img.shields.io/badge/7_Days_to_Die-v2.5_Survival_Revival-8b0000?style=flat)](https://7daystodie.com)
+[![License](https://img.shields.io/badge/license-CC_BY--NC_4.0-blue?style=flat)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Kitsune-Den/KitsuneKitchen7D?style=flat&logo=github)](https://github.com/Kitsune-Den/KitsuneKitchen7D/stargazers)
 
 A fox-crafted cooking expansion for **7 Days to Die**. Adds 16 new food and drink items with custom buffs, a magazine-gated progression system, and a long-overdue Sham Sandwich vendor fix.
 
