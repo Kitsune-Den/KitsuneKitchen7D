@@ -1,5 +1,12 @@
 # KitsuneKitchen7D
 
+🦊 **Part of the [Kitsune Systems Collection](https://github.com/Kitsune-Den)** —
+[KitsunePvPExtended](https://github.com/Kitsune-Den/KitsunePvPExtended) ·
+[KitsuneTrapXP](https://github.com/Kitsune-Den/KitsuneTrapXP) ·
+[KitsuneZombieReach](https://github.com/Kitsune-Den/KitsuneZombieReach) ·
+[KitsuneFuelSaver](https://github.com/Kitsune-Den/KitsuneFuelSaver) ·
+[KitsuneFoxacary](https://github.com/Kitsune-Den/KitsuneFoxacary)
+
 [![Download on Nexus Mods](https://img.shields.io/badge/Download-Nexus_Mods-da8e35?style=flat&logo=nexusmods&logoColor=white)](https://www.nexusmods.com/7daystodie/mods/10022)
 [![7 Days to Die v2.5](https://img.shields.io/badge/7_Days_to_Die-v2.5_Survival_Revival-8b0000?style=flat)](https://7daystodie.com)
 [![License](https://img.shields.io/badge/license-CC_BY--NC_4.0-blue?style=flat)](LICENSE)
