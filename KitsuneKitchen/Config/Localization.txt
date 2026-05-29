@@ -45,3 +45,7 @@ buffKKWiredName,items,Food,,,Wired
 buffKKWiredDesc,items,Food,,,Increased stamina regeneration and run speed. Gotta go fast.
 buffKKHerbalRemedyName,items,Food,,,Herbal Remedy
 buffKKHerbalRemedyDesc,items,Food,,,Gentle health regeneration and natural infection treatment.
+drinkKKWalkerMilkshake,items,Food,,,Walker Milkshake
+drinkKKWalkerMilkshakeDesc,items,Food,,,"The cursed secret menu. Blended fresh from the worst the wasteland has to offer. Chug it and every walker within 100m comes to investigate your exact location for the next minute. Damn right it's better than yours."
+buffKKWalkerMilkshakeName,items,Food,,,Brings All the Walkers to the Yard
+buffKKWalkerMilkshakeDesc,items,Food,,,"You reek of death on purpose. Maximum scent for 60 seconds - the horde is coming to find out who smells so delicious. Hold your milkshake."

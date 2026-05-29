@@ -2,6 +2,15 @@
 
 All notable changes to Kitsune Kitchen are documented here.
 
+## [1.3.0] — 2026-05-29
+
+### Added
+- **🥤 Walker Milkshake** — a cursed secret-menu drink crafted at the **workbench** (rotting flesh + blood bag + jar of water). Chugging it maxes your scent and **re-pins it for 60 seconds**, drawing every walker within 100m to investigate your spot. Deliberate horde bait — kite to traps, clear a street, "hold my milkshake." Craft more if you want a longer party.
+
+### Changed
+- **Food no longer attracts zombies.** All 16 dishes now set `SmellUse="0"` — they were inheriting 10–50m of scent from their vanilla parents, so eating a Kitsune meal could quietly draw a crowd. Cooking should mask the smell; now it does.
+- **The two honey teas are now one.** Buffed **Herbal Honey Tea** to be the definitive honey tea (+30 water, +12 food, +10 heal, keeps the Herbal Remedy regen + 15% infection cure) and removed the vanilla `drinkJarHoneyTea` *recipe* so it's the only craftable honey tea. (Vanilla item still drops in loot/traders, just not craftable.)
+
 ## [1.2.1] — 2026-05-29
 
 ### Fixed
