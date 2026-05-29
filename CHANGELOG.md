@@ -2,6 +2,11 @@
 
 All notable changes to Kitsune Kitchen are documented here.
 
+## [1.2.1] — 2026-05-29
+
+### Fixed
+- **Server error on progression overhauls (e.g. Learn By Doing).** 1.2.0 removed the recipe gating but the 16 food/drink *items* still carried `UnlockedBy="craftingFood"`. On a server where an overhaul deletes the vanilla `craftingFood` skill, each item referenced a progression that no longer exists and errored on load. Removed `UnlockedBy="craftingFood"` from all 16 items — recipes are already default-unlocked, so it was redundant, and dropping it lets each item inherit its vanilla parent's (overhaul-remapped) unlock.
+
 ## [1.2.0] — 2026-05-29
 
 ### Changed
