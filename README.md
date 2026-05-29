@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/license-CC_BY--NC_4.0-blue?style=flat)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Kitsune-Den/KitsuneKitchen7D?style=flat&logo=github)](https://github.com/Kitsune-Den/KitsuneKitchen7D/stargazers)
 
-A fox-crafted cooking expansion for **7 Days to Die**. Adds 16 new food and drink items with custom buffs, a magazine-gated progression system, and a long-overdue Sham Sandwich vendor fix.
+A fox-crafted cooking expansion for **7 Days to Die**. Adds 16 new food and drink items with custom buffs, all craftable from the start, and a long-overdue Sham Sandwich vendor fix.
 
 The philosophy is simple: take what the wasteland already gives you and make something greater from it. Simple dishes from raw ingredients, elevated meals from already-cooked foods, and drinks that'd make a pre-apocalypse barista jealous.
 
@@ -90,25 +90,11 @@ Elevated meals crafted from **already-cooked dishes**. You're not just cooking �
 | Spicy | 30 min | Stamina regen, +15% physical damage resistance |
 | Well Fed | 45 min | Health + stamina regen, +15% damage resistance, +10% block damage |
 
-### Magazine Progression
+### Recipe Unlocks
 
-All recipes unlock through **Home Cooking Weekly** magazines via the `craftingFood` skill. They're woven into the existing vanilla tiers so they feel like a natural part of the game.
+All recipes are **craftable from the start** — no magazines or skill gating. You just need the ingredients and the right crafting station.
 
-| Food Level | Unlocks |
-|-----------|---------|
-| 2 | Fox's Hash, Mushroom Omelette |
-| 4 | Honey Corn Cake |
-| 6 | Burnt Ends |
-| 8 | Forager's Broth |
-| 11 | Blueberry Smoothie |
-| 14 | Aloe Cooler, Herbal Honey Tea |
-| 22 | Espresso Smoothie |
-| 27 | Fox's Breakfast, Wasteland Chowder |
-| 35 | Country Fried Steak |
-| 43 | Hunter's Bounty |
-| 51 | Scavenger's Stir Fry |
-| 80 | Kitsune Gumbo |
-| 100 | Survivor's Feast |
+> Earlier versions gated recipes behind **Home Cooking Weekly** magazines via the vanilla `craftingFood` skill. That broke on progression overhauls (e.g. *Learn By Doing*, which replaces the entire `/progression` tree and removes `craftingFood`, leaving the recipes permanently locked). Unlocking by default keeps Kitsune Kitchen compatible with vanilla **and** every overhaul.
 
 ## Mod Structure
 
@@ -119,7 +105,7 @@ KitsuneKitchen7D/
 │   ├── items.xml            # 16 new items + Sham Sandwich fix
 │   ├── recipes.xml          # 16 crafting recipes
 │   ├── buffs.xml            # 7 custom buffs
-│   ├── progression.xml      # Magazine unlock tiers
+│   ├── progression.xml      # (no gating — recipes unlock by default)
 │   └── Localization.txt     # Display names & descriptions
 └── README.md
 ```
