@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configs>
 
+	<!-- Honey-tea merge: hide the vanilla Honey Tea recipe so our Herbal Honey Tea
+	     (buffed: +30 water, +12 food, +10 heal, Herbal Remedy + infection cure) is the
+	     only craftable honey tea. Vanilla item stays for loot/traders, just not craftable. -->
+	<remove xpath="/recipes/recipe[@name='drinkJarHoneyTea']"/>
+
 	<!-- ============================================================ -->
 	<!-- KITSUNE KITCHEN — RECIPES                                     -->
 	<!-- ============================================================ -->
@@ -133,6 +138,15 @@
 			<ingredient name="foodSteakAndPotato" count="1"/>
 			<ingredient name="foodSpaghetti" count="1"/>
 			<ingredient name="foodBlueberryPie" count="1"/>
+		</recipe>
+	</append>
+
+	<!-- CURSED SECRET MENU - Walker Milkshake (workbench; gloriously gross) -->
+	<append xpath="/recipes">
+		<recipe name="drinkKKWalkerMilkshake" count="1" craft_area="workbench" craft_time="30" tags="perkMasterChef">
+			<ingredient name="foodRottingFlesh" count="3"/>
+			<ingredient name="medicalBloodBag" count="1"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
 		</recipe>
 	</append>
 

@@ -21,6 +21,7 @@
 
 			<property name="EconomicValue" value="8"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Fox Hash">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="22"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="8"/>
@@ -38,6 +39,7 @@
 			<property name="CustomIconTint" value="c8a870"/>
 			<property name="EconomicValue" value="8"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Mushroom Omelette">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="20"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="8"/>
@@ -55,6 +57,7 @@
 			<property name="CustomIconTint" value="daa520"/>
 			<property name="EconomicValue" value="8"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Honey Corn Cake">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="18"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
@@ -73,6 +76,7 @@
 			<property name="CustomIconTint" value="a0b060"/>
 			<property name="EconomicValue" value="10"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Foragers Broth">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="25"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
@@ -91,6 +95,7 @@
 			<property name="CustomIconTint" value="8b4513"/>
 			<property name="EconomicValue" value="12"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Burnt Ends">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="28"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="12"/>
@@ -108,6 +113,7 @@
 			<property name="CustomIconTint" value="d2a050"/>
 			<property name="EconomicValue" value="45"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Country Fried Steak">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="60"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="22"/>
@@ -130,6 +136,7 @@
 			<property name="CustomIconTint" value="6a5acd"/>
 			<property name="EconomicValue" value="10"/>
 			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Blueberry Smoothie">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="5"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
@@ -147,6 +154,7 @@
 			<property name="CustomIconTint" value="7cfc00"/>
 			<property name="EconomicValue" value="12"/>
 			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Aloe Cooler">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="3"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="8"/>
@@ -166,10 +174,11 @@
 			<property name="DisplayType" value="foodCureInfection"/>
 			<property name="EconomicValue" value="15"/>
 			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Herbal Honey Tea">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="12"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="30"/>
 				<display_value name="dCureInfection" value=".15"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="15"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffInfectionAddCure,buffKKHerbalRemedy"/>
@@ -185,6 +194,7 @@
 			<property name="CustomIconTint" value="4a3728"/>
 			<property name="EconomicValue" value="15"/>
 			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Espresso Smoothie">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="5"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
@@ -208,6 +218,7 @@
 			<property name="CustomIconTint" value="f4a460"/>
 			<property name="EconomicValue" value="20"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Fox Breakfast">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="15"/>
@@ -226,6 +237,7 @@
 			<property name="CustomIconTint" value="d2b48c"/>
 			<property name="EconomicValue" value="20"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Wasteland Chowder">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="40"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
@@ -246,6 +258,7 @@
 			<property name="CustomIconTint" value="cd853f"/>
 			<property name="EconomicValue" value="40"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Hunters Bounty">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="55"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="20"/>
@@ -264,6 +277,7 @@
 			<property name="CustomIconTint" value="8fbc8f"/>
 			<property name="EconomicValue" value="40"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Scavenger Stir Fry">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="55"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="20"/>
@@ -284,6 +298,7 @@
 			<property name="CustomIconTint" value="ff6347"/>
 			<property name="EconomicValue" value="80"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Kitsune Gumbo">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="65"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
@@ -302,12 +317,30 @@
 			<property name="CustomIconTint" value="daa520"/>
 			<property name="EconomicValue" value="80"/>
 			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="SmellUse" value="0"/>
 			<effect_group tiered="false" name="KK Survivors Feast">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="80"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="30"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="40"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffKKFeast"/>
+			</effect_group>
+		</item>
+	</append>
+
+	<!-- CURSED SECRET MENU - Walker Milkshake (brings all the walkers to the yard) -->
+	<append xpath="/items">
+		<item name="drinkKKWalkerMilkshake">
+			<property name="Extends" value="drinkYuccaJuiceSmoothie"/>
+			<property name="CustomIcon" value="drinkYuccaJuiceSmoothie"/>
+			<property name="CustomIconTint" value="6b8e23"/>
+			<property name="SmellUse" value="100"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<effect_group tiered="false" name="KK Walker Milkshake">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="subtract" value="3"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffKKWalkerMilkshake"/>
 			</effect_group>
 		</item>
 	</append>
