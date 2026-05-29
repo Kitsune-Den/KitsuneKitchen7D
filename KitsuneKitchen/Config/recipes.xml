@@ -8,28 +8,28 @@
 	<!-- ==================== SIMPLE DISHES (raw ingredients) ==================== -->
 
 	<append xpath="/recipes">
-		<recipe name="foodKKFoxHash" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+		<recipe name="foodKKFoxHash" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
 			<ingredient name="foodCropPotato" count="1"/>
 			<ingredient name="foodEgg" count="1"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKMushroomOmelette" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+		<recipe name="foodKKMushroomOmelette" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
 			<ingredient name="foodCropMushrooms" count="2"/>
 			<ingredient name="foodEgg" count="1"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKHoneyCornCake" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+		<recipe name="foodKKHoneyCornCake" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
 			<ingredient name="foodCropCorn" count="1"/>
 			<ingredient name="foodHoney" count="1"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKForagersBroth" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<recipe name="foodKKForagersBroth" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 			<ingredient name="foodCropMushrooms" count="2"/>
 			<ingredient name="foodCropCorn" count="1"/>
 			<ingredient name="drinkJarBoiledWater" count="1"/>
@@ -37,14 +37,14 @@
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKBurntEnds" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+		<recipe name="foodKKBurntEnds" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
 			<ingredient name="foodCharredMeat" count="2"/>
 			<ingredient name="foodRawMeat" count="4"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKCountryFriedSteak" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<recipe name="foodKKCountryFriedSteak" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 			<ingredient name="foodShamSandwich" count="1"/>
 			<ingredient name="foodEgg" count="2"/>
 			<ingredient name="foodGrilledMeat" count="2"/>
@@ -54,14 +54,14 @@
 	<!-- ==================== DRINKS ==================== -->
 
 	<append xpath="/recipes">
-		<recipe name="drinkKKBlueberrySmoothie" count="1" craft_time="25" tags="perkMasterChef,learnable">
+		<recipe name="drinkKKBlueberrySmoothie" count="1" craft_time="25" tags="perkMasterChef">
 			<ingredient name="foodCropBlueberries" count="3"/>
 			<ingredient name="drinkJarBoiledWater" count="1"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="drinkKKAloeCooler" count="1" craft_time="25" tags="perkMasterChef,learnable">
+		<recipe name="drinkKKAloeCooler" count="1" craft_time="25" tags="perkMasterChef">
 			<ingredient name="resourceCropAloeLeaf" count="2"/>
 			<ingredient name="foodCropBlueberries" count="1"/>
 			<ingredient name="drinkJarBoiledWater" count="1"/>
@@ -69,7 +69,7 @@
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="drinkKKHerbalHoneyTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<recipe name="drinkKKHerbalHoneyTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 			<ingredient name="foodHoney" count="1"/>
 			<ingredient name="resourceCropAloeLeaf" count="1"/>
 			<ingredient name="resourceYuccaFibers" count="1"/>
@@ -78,7 +78,7 @@
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="drinkKKEspressoSmoothie" count="1" craft_time="25" tags="perkMasterChef,learnable">
+		<recipe name="drinkKKEspressoSmoothie" count="1" craft_time="25" tags="perkMasterChef">
 			<ingredient name="drinkJarCoffee" count="1"/>
 			<ingredient name="resourceSnowBall" count="1"/>
 		</recipe>
@@ -87,14 +87,14 @@
 	<!-- ==================== COMPLETED WORKS — TIER 1 ==================== -->
 
 	<append xpath="/recipes">
-		<recipe name="foodKKFoxBreakfast" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<recipe name="foodKKFoxBreakfast" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 			<ingredient name="foodBaconAndEggs" count="1"/>
 			<ingredient name="foodCornBread" count="1"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKWastelandChowder" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<recipe name="foodKKWastelandChowder" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 			<ingredient name="foodShamChowder" count="1"/>
 			<ingredient name="foodCornOnTheCob" count="1"/>
 		</recipe>
@@ -103,7 +103,7 @@
 	<!-- ==================== TIER 2 ==================== -->
 
 	<append xpath="/recipes">
-		<recipe name="foodKKHuntersBounty" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<recipe name="foodKKHuntersBounty" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 			<ingredient name="foodMeatStew" count="1"/>
 			<ingredient name="foodBakedPotato" count="1"/>
 			<ingredient name="foodEggBoiled" count="1"/>
@@ -111,7 +111,7 @@
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKScavengerStirFry" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<recipe name="foodKKScavengerStirFry" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 			<ingredient name="foodVegetableStew" count="1"/>
 			<ingredient name="foodGrilledMeat" count="1"/>
 			<ingredient name="foodCornBread" count="1"/>
@@ -121,7 +121,7 @@
 	<!-- ==================== TIER 3 ==================== -->
 
 	<append xpath="/recipes">
-		<recipe name="foodKKKitsuneGumbo" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<recipe name="foodKKKitsuneGumbo" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 			<ingredient name="foodGumboStew" count="1"/>
 			<ingredient name="foodFishTacos" count="1"/>
 			<ingredient name="foodCornOnTheCob" count="1"/>
@@ -129,7 +129,7 @@
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKSurvivorsFeast" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+		<recipe name="foodKKSurvivorsFeast" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 			<ingredient name="foodSteakAndPotato" count="1"/>
 			<ingredient name="foodSpaghetti" count="1"/>
 			<ingredient name="foodBlueberryPie" count="1"/>
