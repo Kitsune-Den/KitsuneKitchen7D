@@ -2,6 +2,14 @@
 
 All notable changes to Kitsune Kitchen are documented here.
 
+## [1.4.0] — 2026-06-15
+
+### Changed
+- **Updated for 7 Days to Die v3.0 "Dead Hot Summer."** v3.0 renamed the localization file from `Localization.txt` to `Localization.csv` (the old extension is no longer loaded), so the mod's localization file is renamed to match. The file's contents were already in CSV format, so no display names or descriptions changed.
+
+### Compatibility
+- Verified every vanilla dependency against the v3.0 game data: all 33 referenced items, both crafting stations (`toolCookingGrill`/`toolCookingPot`), the `perkMasterChef` tag, the removed `drinkJarHoneyTea` recipe, the `buffProcessConsumables`/`buffInfectionAddCure` buffs, the food/water/stamina CVars, the `smell` cvar, the Sham Sandwich trader properties, and all buff icons still exist unchanged. No recipe, item, or buff logic needed updating.
+
 ## [1.3.0] — 2026-05-29
 
 ### Added

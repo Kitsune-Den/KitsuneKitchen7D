@@ -8,7 +8,7 @@
 [KitsuneFoxacary](https://github.com/Kitsune-Den/KitsuneFoxacary)
 
 [![Download on Nexus Mods](https://img.shields.io/badge/Download-Nexus_Mods-da8e35?style=flat&logo=nexusmods&logoColor=white)](https://www.nexusmods.com/7daystodie/mods/10022)
-[![7 Days to Die v2.5](https://img.shields.io/badge/7_Days_to_Die-v2.5_Survival_Revival-8b0000?style=flat)](https://7daystodie.com)
+[![7 Days to Die v3.0](https://img.shields.io/badge/7_Days_to_Die-v3.0_Dead_Hot_Summer-8b0000?style=flat)](https://7daystodie.com)
 [![License](https://img.shields.io/badge/license-CC_BY--NC_4.0-blue?style=flat)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Kitsune-Den/KitsuneKitchen7D?style=flat&logo=github)](https://github.com/Kitsune-Den/KitsuneKitchen7D/stargazers)
 
@@ -29,7 +29,7 @@ No additional dependencies required. Works alongside other modlets.
 
 ## Compatibility
 
-- **7 Days to Die v2.5** (Survival Revival)
+- **7 Days to Die v3.0** (Dead Hot Summer)
 - Server-side and client-side compatible
 - EAC: Must be **disabled** (as with all modlets)
 
@@ -106,7 +106,7 @@ KitsuneKitchen7D/
 │   ├── recipes.xml          # 16 crafting recipes
 │   ├── buffs.xml            # 7 custom buffs
 │   ├── progression.xml      # (no gating — recipes unlock by default)
-│   └── Localization.txt     # Display names & descriptions
+│   └── Localization.csv     # Display names & descriptions
 └── README.md
 ```
 
