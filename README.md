@@ -9,7 +9,7 @@
 
 [![Download on Nexus Mods](https://img.shields.io/badge/Download-Nexus_Mods-da8e35?style=flat&logo=nexusmods&logoColor=white)](https://www.nexusmods.com/7daystodie/mods/10022)
 [![7 Days to Die v3.0](https://img.shields.io/badge/7_Days_to_Die-v3.0_Dead_Hot_Summer-8b0000?style=flat)](https://7daystodie.com)
-[![License](https://img.shields.io/badge/license-CC_BY--NC_4.0-blue?style=flat)](LICENSE)
+[![License](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-blue?style=flat)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Kitsune-Den/KitsuneKitchen7D?style=flat&logo=github)](https://github.com/Kitsune-Den/KitsuneKitchen7D/stargazers)
 
 A fox-crafted cooking expansion for **7 Days to Die**. Adds 16 new food and drink items with custom buffs, all craftable from the start, and a long-overdue Sham Sandwich vendor fix.
@@ -118,4 +118,4 @@ KitsuneKitchen7D/
 
 ## License
 
-CC BY-NC 4.0 — Free to use and modify for non-commercial purposes with attribution.
+[CC BY-NC-SA 4.0](LICENSE), with an extra permission for servers that make money: see [NOTICE.md](NOTICE.md). In short: play it, change it and share it, with credit, not for sale, and with changed versions under the same license.
