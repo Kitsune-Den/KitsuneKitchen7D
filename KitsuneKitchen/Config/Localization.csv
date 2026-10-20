@@ -49,3 +49,17 @@ drinkKKWalkerMilkshake,items,Food,,,Walker Milkshake
 drinkKKWalkerMilkshakeDesc,items,Food,,,"The cursed secret menu. Blended fresh from the worst the wasteland has to offer. Chug it and every walker within 100m comes to investigate your exact location for the next minute. Damn right it's better than yours."
 buffKKWalkerMilkshakeName,items,Food,,,Brings All the Walkers to the Yard
 buffKKWalkerMilkshakeDesc,items,Food,,,"You reek of death on purpose. Maximum scent for 60 seconds - the horde is coming to find out who smells so delicious. Hold your milkshake."
+foodKKPumpkinSoup,items,Food,,,Harvest Pumpkin Soup
+foodKKPumpkinSoupDesc,items,Food,,,"Roasted pumpkin and sweet corn simmered down to something warm and golden. Tastes like a harvest festival nobody's around to throw anymore."
+foodKKKitsuneUdon,items,Food,,,Kitsune Udon
+foodKKKitsuneUdonDesc,items,Food,,,"Hand-cut corn noodles in miso broth, topped with a golden fried pocket. The fox's favorite dish since long before the dead started walking. Eat it and the fox shares a little of its luck."
+foodKKHotHoneyChicken,items,Food,,,Hot Honey Chicken
+foodKKHotHoneyChickenDesc,items,Food,,,"Crispy chicken nuggets and corn bread drowned in hot honey. Your coop works hard. Reward yourself."
+foodKKHarvestPotPie,items,Food,,,Harvest Pot Pie
+foodKKHarvestPotPieDesc,items,Food,,,"Ash chicken stew baked under a pumpkin bread crust. Smells like home and nothing else, which is exactly how you want it."
+drinkKKPumpkinSpiceLatte,items,Food,,,Pumpkin Spice Latte
+drinkKKPumpkinSpiceLatteDesc,items,Food,,,"Coffee, fresh pumpkin, and a swirl of honey. The world ended, but the seasonal menu didn't. Basic? Maybe. Warm all the way down? Absolutely."
+buffKKCozyName,items,Food,,,Cozy
+buffKKCozyDesc,items,Food,,,Stamina regeneration and resistance to the cold.
+buffKKFoxFavorName,items,Food,,,Fox's Favor
+buffKKFoxFavorDesc,items,Food,,,The fox shares its luck. Better loot and faster looting.

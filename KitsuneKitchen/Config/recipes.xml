@@ -2,39 +2,46 @@
 <configs>
 
 	<!-- Honey-tea merge: hide the vanilla Honey Tea recipe so our Herbal Honey Tea
-	     (buffed: +30 water, +12 food, +10 heal, Herbal Remedy + infection cure) is the
+	     (buffed: +30 water, +12 food, +10 heal, Herbal Remedy + infection & dysentery cure) is the
 	     only craftable honey tea. Vanilla item stays for loot/traders, just not craftable. -->
 	<remove xpath="/recipes/recipe[@name='drinkJarHoneyTea']"/>
 
 	<!-- ============================================================ -->
 	<!-- KITSUNE KITCHEN — RECIPES                                     -->
 	<!-- ============================================================ -->
+	<!--
+	  Tags mirror vanilla so the usual speed-ups apply:
+	    grill           - higher-quality Cooking Grill crafts faster
+	    cookingPotFood  - higher-quality Cooking Pot crafts faster
+	    packMuleCrafting - Pack Mule perk speeds up backpack crafting
+	  No "learnable" tag: every recipe is unlocked from the start.
+	-->
 
 	<!-- ==================== SIMPLE DISHES (raw ingredients) ==================== -->
 
 	<append xpath="/recipes">
-		<recipe name="foodKKFoxHash" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+		<recipe name="foodKKFoxHash" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,grill">
 			<ingredient name="foodCropPotato" count="1"/>
 			<ingredient name="foodEgg" count="1"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKMushroomOmelette" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+		<recipe name="foodKKMushroomOmelette" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,grill">
 			<ingredient name="foodCropMushrooms" count="2"/>
 			<ingredient name="foodEgg" count="1"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKHoneyCornCake" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+		<recipe name="foodKKHoneyCornCake" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,grill">
 			<ingredient name="foodCropCorn" count="1"/>
 			<ingredient name="foodHoney" count="1"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKForagersBroth" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<recipe name="foodKKForagersBroth" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
 			<ingredient name="foodCropMushrooms" count="2"/>
 			<ingredient name="foodCropCorn" count="1"/>
 			<ingredient name="drinkJarBoiledWater" count="1"/>
@@ -42,14 +49,32 @@
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKBurntEnds" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+		<recipe name="foodKKPumpkinSoup" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodCropCorn" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="foodKKKitsuneUdon" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
+			<ingredient name="foodCanMiso" count="1"/>
+			<ingredient name="foodCornMeal" count="2"/>
+			<ingredient name="foodEgg" count="1"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="foodKKBurntEnds" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,grill">
 			<ingredient name="foodCharredMeat" count="2"/>
 			<ingredient name="foodRawMeat" count="4"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKCountryFriedSteak" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<recipe name="foodKKCountryFriedSteak" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
 			<ingredient name="foodShamSandwich" count="1"/>
 			<ingredient name="foodEgg" count="2"/>
 			<ingredient name="foodGrilledMeat" count="2"/>
@@ -58,15 +83,16 @@
 
 	<!-- ==================== DRINKS ==================== -->
 
+	<!-- Smoothies are backpack-crafted, like vanilla Yucca Smoothie -->
 	<append xpath="/recipes">
-		<recipe name="drinkKKBlueberrySmoothie" count="1" craft_time="25" tags="perkMasterChef">
+		<recipe name="drinkKKBlueberrySmoothie" count="1" craft_time="25" tags="perkMasterChef,packMuleCrafting">
 			<ingredient name="foodCropBlueberries" count="3"/>
 			<ingredient name="drinkJarBoiledWater" count="1"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="drinkKKAloeCooler" count="1" craft_time="25" tags="perkMasterChef">
+		<recipe name="drinkKKAloeCooler" count="1" craft_time="25" tags="perkMasterChef,packMuleCrafting">
 			<ingredient name="resourceCropAloeLeaf" count="2"/>
 			<ingredient name="foodCropBlueberries" count="1"/>
 			<ingredient name="drinkJarBoiledWater" count="1"/>
@@ -74,7 +100,7 @@
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="drinkKKHerbalHoneyTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<recipe name="drinkKKHerbalHoneyTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
 			<ingredient name="foodHoney" count="1"/>
 			<ingredient name="resourceCropAloeLeaf" count="1"/>
 			<ingredient name="resourceYuccaFibers" count="1"/>
@@ -83,32 +109,48 @@
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="drinkKKEspressoSmoothie" count="1" craft_time="25" tags="perkMasterChef">
+		<recipe name="drinkKKEspressoSmoothie" count="1" craft_time="25" tags="perkMasterChef,packMuleCrafting">
 			<ingredient name="drinkJarCoffee" count="1"/>
 			<ingredient name="resourceSnowBall" count="1"/>
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="drinkKKPumpkinSpiceLatte" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
+			<ingredient name="drinkJarCoffee" count="1"/>
+			<ingredient name="foodCropPumpkin" count="1"/>
+			<ingredient name="foodHoney" count="1"/>
 		</recipe>
 	</append>
 
 	<!-- ==================== COMPLETED WORKS — TIER 1 ==================== -->
 
 	<append xpath="/recipes">
-		<recipe name="foodKKFoxBreakfast" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<recipe name="foodKKFoxBreakfast" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
 			<ingredient name="foodBaconAndEggs" count="1"/>
 			<ingredient name="foodCornBread" count="1"/>
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKWastelandChowder" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<recipe name="foodKKWastelandChowder" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
 			<ingredient name="foodShamChowder" count="1"/>
 			<ingredient name="foodCornOnTheCob" count="1"/>
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="foodKKHotHoneyChicken" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
+			<ingredient name="foodChickenNuggets" count="1"/>
+			<ingredient name="foodCornBread" count="1"/>
+			<ingredient name="foodHoney" count="1"/>
 		</recipe>
 	</append>
 
 	<!-- ==================== TIER 2 ==================== -->
 
 	<append xpath="/recipes">
-		<recipe name="foodKKHuntersBounty" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<recipe name="foodKKHuntersBounty" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
 			<ingredient name="foodMeatStew" count="1"/>
 			<ingredient name="foodBakedPotato" count="1"/>
 			<ingredient name="foodEggBoiled" count="1"/>
@@ -116,17 +158,24 @@
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKScavengerStirFry" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<recipe name="foodKKScavengerStirFry" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
 			<ingredient name="foodVegetableStew" count="1"/>
 			<ingredient name="foodGrilledMeat" count="1"/>
 			<ingredient name="foodCornBread" count="1"/>
 		</recipe>
 	</append>
 
-	<!-- ==================== TIER 3 ==================== -->
+	<append xpath="/recipes">
+		<recipe name="foodKKHarvestPotPie" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
+			<ingredient name="foodAshChickenStew" count="1"/>
+			<ingredient name="foodPumpkinBread" count="1"/>
+		</recipe>
+	</append>
+
+	<!-- ==================== TIER 3 (two servings per craft) ==================== -->
 
 	<append xpath="/recipes">
-		<recipe name="foodKKKitsuneGumbo" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<recipe name="foodKKKitsuneGumbo" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
 			<ingredient name="foodGumboStew" count="1"/>
 			<ingredient name="foodFishTacos" count="1"/>
 			<ingredient name="foodCornOnTheCob" count="1"/>
@@ -134,7 +183,7 @@
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="foodKKSurvivorsFeast" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<recipe name="foodKKSurvivorsFeast" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,cookingPotFood">
 			<ingredient name="foodSteakAndPotato" count="1"/>
 			<ingredient name="foodSpaghetti" count="1"/>
 			<ingredient name="foodBlueberryPie" count="1"/>
@@ -143,7 +192,7 @@
 
 	<!-- CURSED SECRET MENU - Walker Milkshake (workbench; gloriously gross) -->
 	<append xpath="/recipes">
-		<recipe name="drinkKKWalkerMilkshake" count="1" craft_area="workbench" craft_time="30" tags="perkMasterChef">
+		<recipe name="drinkKKWalkerMilkshake" count="1" craft_area="workbench" craft_time="30" tags="perkMasterChef,workbenchCrafting">
 			<ingredient name="foodRottingFlesh" count="3"/>
 			<ingredient name="medicalBloodBag" count="1"/>
 			<ingredient name="drinkJarRiverWater" count="1"/>
