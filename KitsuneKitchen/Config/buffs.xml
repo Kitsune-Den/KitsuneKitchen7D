@@ -78,6 +78,26 @@
 			</effect_group>
 		</buff>
 
+		<!-- Cozy: Pumpkin Spice Latte — stamina regen + cold resistance (20 min) -->
+		<buff name="buffKKCozy" name_key="buffKKCozyName" description_key="buffKKCozyDesc" icon="ui_game_symbol_coffee" icon_color="210,105,30">
+			<stack_type value="replace"/>
+			<duration value="1200"/>
+			<effect_group>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="1.5"/>
+				<passive_effect name="HypothermalResist" operation="base_add" value="15"/>
+			</effect_group>
+		</buff>
+
+		<!-- Fox's Favor: Kitsune Udon — the fox shares its luck: better loot + faster looting (20 min) -->
+		<buff name="buffKKFoxFavor" name_key="buffKKFoxFavorName" description_key="buffKKFoxFavorDesc" icon="ui_game_symbol_treasure" icon_color="255,140,0">
+			<stack_type value="replace"/>
+			<duration value="1200"/>
+			<effect_group>
+				<passive_effect name="LootStage" operation="perc_add" value=".10"/>
+				<passive_effect name="ScavengingTime" operation="perc_subtract" value=".15"/>
+			</effect_group>
+		</buff>
+
 		<!-- Walker Milkshake: re-pins smell to max each tick for 60s, clears on expiry -->
 		<buff name="buffKKWalkerMilkshake" name_key="buffKKWalkerMilkshakeName" description_key="buffKKWalkerMilkshakeDesc" icon="ui_game_symbol_smell" icon_color="180,60,200">
 			<stack_type value="replace"/>

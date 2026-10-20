@@ -2,6 +2,38 @@
 
 All notable changes to Kitsune Kitchen are documented here.
 
+## [1.5.0] — 2026-10-20
+
+### Added — the Harvest Menu 🎃🐔
+Five new recipes that use the chicken and pumpkin ingredients vanilla has added since 3.1:
+- **🎃 Pumpkin Spice Latte** (pot): Coffee + Pumpkin + Honey. Grants the new **Cozy** buff (stamina regen + cold resistance, 20 min).
+- **Harvest Pumpkin Soup** (pot, early game): 2 Pumpkin + Corn + Boiled Water.
+- **🦊 Kitsune Udon** (pot): Canned Miso + 2 Corn Meal + Egg + Animal Fat + Boiled Water. The fox's own dish. Grants the new **Fox's Favor** buff (+10% loot stage, 15% faster looting, 20 min).
+- **Hot Honey Chicken** (Completed Work, tier 1): Chicken Nuggets + Corn Bread + Honey. Grants Hearty and a 5% infection cure.
+- **Harvest Pot Pie** (Completed Work, tier 2): Ash Chicken Stew + Pumpkin Bread. Grants Hearty.
+
+### Changed — Completed Works rebalance
+Vanilla food has been rebalanced heavily, which left most Completed Works worth *less* than the dishes they consume. They now return more than their inputs would if eaten separately, plus their buff:
+- **Fox's Breakfast:** 45/15/5/15 → 55/28/5/25 (food / health / water / stamina).
+- **Wasteland Chowder:** 40/10/10/15 → 70/90/15/40, and it now keeps vanilla's **Sham Chowder** Fortitude buff instead of dropping it.
+- **Hunter's Bounty:** 55/20/5/20 → 80/40/20/40 + Hearty.
+- **Scavenger's Stir Fry:** 55/20/5/20 → 60/30/20/40 + Energized.
+- **Kitsune Gumbo** and **Survivor's Feast** now make **two servings** per craft (90/52/10/40 and 115/56/10/40 each). Their inputs add up to more than a full stomach, so a single serving wasted most of it.
+- **Burnt Ends:** 28/12 → 35/15, in line with the ~14 raw meat it costs.
+- **Herbal Honey Tea** now also cures **20% dysentery**, matching vanilla Honey Tea, whose recipe this mod removes.
+- **Honey Corn Cake** keeps honey's 5% infection cure.
+- Trade values are set close to the combined value of each recipe's ingredients, so selling to traders is neither a loss nor a profit.
+
+### Fixed
+- **Zero-smell food now actually works.** Since v1.3.0, `SmellUse="0"` was set on the item itself, but the game only reads `SmellUse` from the item's `Action0` (eat action) block, so every dish still gave off its vanilla parent's 10–50m of smell. The override has moved into `Action0`. The Walker Milkshake's item-level smell moved there too; its 60-second smell buff was already working.
+- **Better Cooking Grills and Pots now speed up Kitsune recipes.** Recipes now carry the vanilla `grill` / `cookingPotFood` tags that quality-tier crafting-time bonuses look for. Backpack smoothies are now tagged `packMuleCrafting` for the Pack Mule perk, and the Walker Milkshake is tagged `workbenchCrafting`.
+- **The Farmer armor set bonus now boosts Kitsune food.** Every dish sets the `foodHealthFarmer` / `foodStaminaFarmer` values the set bonus multiplies.
+- **Drinks put out fire again.** All Kitsune drinks now apply vanilla's `buffExtinguishFire` when you drink one while burning.
+- **Country Fried Steak no longer gives a free jar.** It extended Meat Stew, which refunds an empty jar when eaten, even though the recipe uses no jar. It now extends Steak & Potato, which is served on a plate.
+
+### Compatibility
+- Verified against **7 Days to Die v3.3 (b18)** game data: every referenced item, buff, recipe tag, display type, passive effect and the `drinkJarHoneyTea` remove target exist. Still static-only; in-game smoke test pending.
+
 ## [1.4.0] — 2026-06-15
 
 ### Changed
