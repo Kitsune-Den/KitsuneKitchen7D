@@ -2,6 +2,11 @@
 
 All notable changes to Kitsune Kitchen are documented here.
 
+## [1.5.1] — 2026-10-20
+
+### Added
+- **Translations for 12 more languages:** German, Spanish, French, Italian, Japanese, Korean, Polish, Brazilian Portuguese, Russian, Turkish, Simplified Chinese and Traditional Chinese. Every item name, description, buff name and buff description now has a translation. Vanilla dishes mentioned in descriptions use the game's own translated names (for example Sham is «Срам» in Russian and nięso in Polish), so they match what players see in their inventory.
+
 ## [1.5.0] — 2026-10-20
 
 ### Added — the Harvest Menu 🎃🐔
@@ -32,7 +37,7 @@ Vanilla food has been rebalanced heavily, which left most Completed Works worth 
 - **Country Fried Steak no longer gives a free jar.** It extended Meat Stew, which refunds an empty jar when eaten, even though the recipe uses no jar. It now extends Steak & Potato, which is served on a plate.
 
 ### Compatibility
-- Verified against **7 Days to Die v3.3 (b18)** game data: every referenced item, buff, recipe tag, display type, passive effect and the `drinkJarHoneyTea` remove target exist. Still static-only; in-game smoke test pending.
+- Verified against **7 Days to Die v3.3 (b18)** game data: every referenced item, buff, recipe tag, display type, passive effect and the `drinkJarHoneyTea` remove target exist. Tested in-game.
 
 ## [1.4.0] — 2026-06-15
 
