@@ -32,6 +32,7 @@ No additional dependencies required. Works alongside other modlets.
 - **7 Days to Die v3.0 – v3.3** (verified against v3.3 b18 game data)
 - Server-side and client-side compatible
 - EAC: Must be **disabled** (as with all modlets)
+- **13 languages:** English, German, Spanish, French, Italian, Japanese, Korean, Polish, Brazilian Portuguese, Russian, Turkish, Simplified Chinese, Traditional Chinese
 
 ## What's Included
 
